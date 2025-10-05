@@ -1,0 +1,167 @@
+# Generation I Moves — metadata from index; learners are level-up only via move_learners.json
+# Format: Move: Name | Type: TYPE | Cat: Physical/Special | Power: N|- | Acc: N|- | PP: N | Effect: one-liner
+Move: Absorb | Type: Grass | Cat: Special | Power: 20 | Acc: 100 | PP: 25 | Effect: User recovers half the HP inflicted on opponent.
+Move: Acid | Type: Poison | Cat: Physical | Power: 40 | Acc: 100 | PP: 30 | Effect: May lower opponent's Special Defense.
+Move: Acid Armor | Type: Poison | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: Sharply raises user's Defense.
+Move: Agility | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 30 | Effect: Sharply raises user's Speed.
+Move: Amnesia | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 20 | Effect: Sharply raises user's Special Defense.
+Move: Aurora Beam | Type: Ice | Cat: Special | Power: 65 | Acc: 100 | PP: 20 | Effect: May lower opponent's Attack.
+Move: Barrage | Type: Normal | Cat: Physical | Power: 15 | Acc: 85 | PP: 20 | Effect: Hits 2-5 times in one turn.
+Move: Barrier | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 20 | Effect: Sharply raises user's Defense.
+Move: Bide | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: User takes damage for two turns then strikes back double.
+Move: Bind | Type: Normal | Cat: Physical | Power: 15 | Acc: 85 | PP: 20 | Effect: Traps opponent, damaging them for 4-5 turns.
+Move: Bite | Type: Normal | Cat: Physical | Power: 60 | Acc: 100 | PP: 25 | Effect: May cause flinching.
+Move: Blizzard | Type: Ice | Cat: Special | Power: 110 | Acc: 70 | PP: 5 | Effect: May freeze opponent.
+Move: Body Slam | Type: Normal | Cat: Physical | Power: 85 | Acc: 100 | PP: 15 | Effect: May paralyze opponent.
+Move: Bone Club | Type: Ground | Cat: Physical | Power: 65 | Acc: 85 | PP: 20 | Effect: May cause flinching.
+Move: Bonemerang | Type: Ground | Cat: Physical | Power: 50 | Acc: 90 | PP: 10 | Effect: Hits twice in one turn.
+Move: Bubble | Type: Water | Cat: Special | Power: 40 | Acc: 100 | PP: 30 | Effect: May lower opponent's Speed.
+Move: Bubble Beam | Type: Water | Cat: Special | Power: 65 | Acc: 100 | PP: 20 | Effect: May lower opponent's Speed.
+Move: Clamp | Type: Water | Cat: Special | Power: 35 | Acc: 85 | PP: 15 | Effect: Traps opponent, damaging them for 4-5 turns.
+Move: Comet Punch | Type: Normal | Cat: Physical | Power: 18 | Acc: 85 | PP: 15 | Effect: Hits 2-5 times in one turn.
+Move: Confuse Ray | Type: Ghost | Cat: Physical | Power: — | Acc: 100 | PP: 10 | Effect: Confuses opponent.
+Move: Confusion | Type: Psychic | Cat: Special | Power: 50 | Acc: 100 | PP: 25 | Effect: May confuse opponent.
+Move: Constrict | Type: Normal | Cat: Physical | Power: 10 | Acc: 100 | PP: 35 | Effect: May lower opponent's Speed by one stage.
+Move: Conversion | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 30 | Effect: Changes user's type to that of its first move.
+Move: Counter | Type: Fighting | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: When hit by a Physical Attack, user strikes back with 2x power.
+Move: Crabhammer | Type: Water | Cat: Special | Power: 100 | Acc: 90 | PP: 10 | Effect: High critical hit ratio.
+Move: Cut | Type: Normal | Cat: Physical | Power: 50 | Acc: 95 | PP: 30 | Effect: No additional effect.
+Move: Defense Curl | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 40 | Effect: Raises user's Defense.
+Move: Dig | Type: Ground | Cat: Physical | Power: 80 | Acc: 100 | PP: 10 | Effect: Digs underground on first turn, attacks on second. Can also escape from caves.
+Move: Disable | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: Opponent can't use its last attack for a few turns.
+Move: Dizzy Punch | Type: Normal | Cat: Physical | Power: 70 | Acc: 100 | PP: 10 | Effect: May confuse opponent.
+Move: Double Kick | Type: Fighting | Cat: Physical | Power: 30 | Acc: 100 | PP: 30 | Effect: Hits twice in one turn.
+Move: Double Slap | Type: Normal | Cat: Physical | Power: 15 | Acc: 85 | PP: 10 | Effect: Hits 2-5 times in one turn.
+Move: Double Team | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 15 | Effect: Raises user's Evasiveness.
+Move: Double-Edge | Type: Normal | Cat: Physical | Power: 120 | Acc: 100 | PP: 15 | Effect: User receives recoil damage.
+Move: Dragon Rage | Type: Dragon | Cat: Special | Power: — | Acc: 100 | PP: 10 | Effect: Always inflicts 40 HP.
+Move: Dream Eater | Type: Psychic | Cat: Special | Power: 100 | Acc: 100 | PP: 15 | Effect: User recovers half the HP inflicted on a sleeping opponent.
+Move: Drill Peck | Type: Flying | Cat: Physical | Power: 80 | Acc: 100 | PP: 20 | Effect: No additional effect.
+Move: Earthquake | Type: Ground | Cat: Physical | Power: 100 | Acc: 100 | PP: 10 | Effect: Power is doubled if opponent is underground from using Dig.
+Move: Egg Bomb | Type: Normal | Cat: Physical | Power: 100 | Acc: 75 | PP: 10 | Effect: No additional effect.
+Move: Ember | Type: Fire | Cat: Special | Power: 40 | Acc: 100 | PP: 25 | Effect: May burn opponent.
+Move: Explosion | Type: Normal | Cat: Physical | Power: 250 | Acc: 100 | PP: 5 | Effect: User faints.
+Move: Fire Blast | Type: Fire | Cat: Special | Power: 110 | Acc: 85 | PP: 5 | Effect: May burn opponent.
+Move: Fire Punch | Type: Fire | Cat: Special | Power: 75 | Acc: 100 | PP: 15 | Effect: May burn opponent.
+Move: Fire Spin | Type: Fire | Cat: Special | Power: 35 | Acc: 85 | PP: 15 | Effect: Traps opponent, damaging them for 4-5 turns.
+Move: Fissure | Type: Ground | Cat: Physical | Power: — | Acc: 30 | PP: 5 | Effect: One-Hit-KO, if it hits.
+Move: Flamethrower | Type: Fire | Cat: Special | Power: 90 | Acc: 100 | PP: 15 | Effect: May burn opponent.
+Move: Flash | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: Lowers opponent's Accuracy.
+Move: Fly | Type: Flying | Cat: Physical | Power: 90 | Acc: 95 | PP: 15 | Effect: Flies up on first turn, attacks on second turn.
+Move: Focus Energy | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 30 | Effect: Increases critical hit ratio.
+Move: Fury Attack | Type: Normal | Cat: Physical | Power: 15 | Acc: 85 | PP: 20 | Effect: Hits 2-5 times in one turn.
+Move: Fury Swipes | Type: Normal | Cat: Physical | Power: 18 | Acc: 80 | PP: 15 | Effect: Hits 2-5 times in one turn.
+Move: Glare | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 30 | Effect: Paralyzes opponent.
+Move: Growl | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 40 | Effect: Lowers opponent's Attack.
+Move: Growth | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: Raises user's Attack and Special Attack.
+Move: Guillotine | Type: Normal | Cat: Physical | Power: — | Acc: 30 | PP: 5 | Effect: One-Hit-KO, if it hits.
+Move: Gust | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 35 | Effect: Hits Pokémon using Fly/Bounce/Sky Drop with double power.
+Move: Harden | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 30 | Effect: Raises user's Defense.
+Move: Haze | Type: Ice | Cat: Special | Power: — | Acc: — | PP: 30 | Effect: Resets all stat changes.
+Move: Headbutt | Type: Normal | Cat: Physical | Power: 70 | Acc: 100 | PP: 15 | Effect: May cause flinching.
+Move: High Jump Kick | Type: Fighting | Cat: Physical | Power: 130 | Acc: 90 | PP: 10 | Effect: If it misses, the user loses half their HP.
+Move: Horn Attack | Type: Normal | Cat: Physical | Power: 65 | Acc: 100 | PP: 25 | Effect: No additional effect.
+Move: Horn Drill | Type: Normal | Cat: Physical | Power: — | Acc: 30 | PP: 5 | Effect: One-Hit-KO, if it hits.
+Move: Hydro Pump | Type: Water | Cat: Special | Power: 110 | Acc: 80 | PP: 5 | Effect: No additional effect.
+Move: Hyper Beam | Type: Normal | Cat: Physical | Power: 150 | Acc: 90 | PP: 5 | Effect: User must recharge next turn.
+Move: Hyper Fang | Type: Normal | Cat: Physical | Power: 80 | Acc: 90 | PP: 15 | Effect: May cause flinching.
+Move: Hypnosis | Type: Psychic | Cat: Special | Power: — | Acc: 60 | PP: 20 | Effect: Puts opponent to sleep.
+Move: Ice Beam | Type: Ice | Cat: Special | Power: 90 | Acc: 100 | PP: 10 | Effect: May freeze opponent.
+Move: Ice Punch | Type: Ice | Cat: Special | Power: 75 | Acc: 100 | PP: 15 | Effect: May freeze opponent.
+Move: Jump Kick | Type: Fighting | Cat: Physical | Power: 100 | Acc: 95 | PP: 10 | Effect: If it misses, the user loses half their HP.
+Move: Karate Chop | Type: Normal | Cat: Physical | Power: 50 | Acc: 100 | PP: 25 | Effect: High critical hit ratio.
+Move: Kinesis | Type: Psychic | Cat: Special | Power: — | Acc: 80 | PP: 15 | Effect: Lowers opponent's Accuracy.
+Move: Leech Life | Type: Bug | Cat: Physical | Power: 80 | Acc: 100 | PP: 10 | Effect: User recovers half the HP inflicted on opponent.
+Move: Leech Seed | Type: Grass | Cat: Special | Power: — | Acc: 90 | PP: 10 | Effect: Drains HP from opponent each turn.
+Move: Leer | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 30 | Effect: Lowers opponent's Defense.
+Move: Lick | Type: Ghost | Cat: Physical | Power: 30 | Acc: 100 | PP: 30 | Effect: May paralyze opponent.
+Move: Light Screen | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 30 | Effect: Halves damage from Special attacks for 5 turns.
+Move: Lovely Kiss | Type: Normal | Cat: Physical | Power: — | Acc: 75 | PP: 10 | Effect: Puts opponent to sleep.
+Move: Low Kick | Type: Fighting | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: The heavier the opponent, the stronger the attack.
+Move: Meditate | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 40 | Effect: Raises user's Attack.
+Move: Mega Drain | Type: Grass | Cat: Special | Power: 40 | Acc: 100 | PP: 15 | Effect: User recovers half the HP inflicted on opponent.
+Move: Mega Kick | Type: Normal | Cat: Physical | Power: 120 | Acc: 75 | PP: 5 | Effect: No additional effect.
+Move: Mega Punch | Type: Normal | Cat: Physical | Power: 80 | Acc: 85 | PP: 20 | Effect: No additional effect.
+Move: Metronome | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: User performs almost any move in the game at random.
+Move: Mimic | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: Copies the opponent's last move.
+Move: Minimize | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: Sharply raises user's Evasiveness.
+Move: Mirror Move | Type: Flying | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: User performs the opponent's last move.
+Move: Mist | Type: Ice | Cat: Special | Power: — | Acc: — | PP: 30 | Effect: User's stats cannot be changed for a period of time.
+Move: Night Shade | Type: Ghost | Cat: Physical | Power: — | Acc: 100 | PP: 15 | Effect: Inflicts damage equal to user's level.
+Move: Pay Day | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 20 | Effect: Money is earned after the battle.
+Move: Peck | Type: Flying | Cat: Physical | Power: 35 | Acc: 100 | PP: 35 | Effect: No additional effect.
+Move: Petal Dance | Type: Grass | Cat: Special | Power: 120 | Acc: 100 | PP: 10 | Effect: User attacks for 2-3 turns but then becomes confused.
+Move: Pin Missile | Type: Bug | Cat: Physical | Power: 25 | Acc: 95 | PP: 20 | Effect: Hits 2-5 times in one turn.
+Move: Poison Gas | Type: Poison | Cat: Physical | Power: — | Acc: 90 | PP: 40 | Effect: Poisons opponent.
+Move: Poison Powder | Type: Poison | Cat: Physical | Power: — | Acc: 75 | PP: 35 | Effect: Poisons opponent.
+Move: Poison Sting | Type: Poison | Cat: Physical | Power: 15 | Acc: 100 | PP: 35 | Effect: May poison the opponent.
+Move: Pound | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 35 | Effect: No additional effect.
+Move: Psybeam | Type: Psychic | Cat: Special | Power: 65 | Acc: 100 | PP: 20 | Effect: May confuse opponent.
+Move: Psychic | Type: Psychic | Cat: Special | Power: 90 | Acc: 100 | PP: 10 | Effect: May lower opponent's Special Defense.
+Move: Psywave | Type: Psychic | Cat: Special | Power: — | Acc: 100 | PP: 15 | Effect: Inflicts damage 50-150% of user's level.
+Move: Quick Attack | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 30 | Effect: User attacks first.
+Move: Rage | Type: Normal | Cat: Physical | Power: 20 | Acc: 100 | PP: 20 | Effect: Raises user's Attack when hit.
+Move: Razor Leaf | Type: Grass | Cat: Special | Power: 55 | Acc: 95 | PP: 25 | Effect: High critical hit ratio.
+Move: Razor Wind | Type: Normal | Cat: Physical | Power: 80 | Acc: 100 | PP: 10 | Effect: Charges on first turn, attacks on second. High critical hit ratio.
+Move: Recover | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 5 | Effect: User recovers half its max HP.
+Move: Reflect | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 20 | Effect: Halves damage from Physical attacks for 5 turns.
+Move: Rest | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 5 | Effect: User sleeps for 2 turns, but user is fully healed.
+Move: Roar | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: In battles, the opponent switches. In the wild, the Pokémon runs.
+Move: Rock Slide | Type: Rock | Cat: Physical | Power: 75 | Acc: 90 | PP: 10 | Effect: May cause flinching.
+Move: Rock Throw | Type: Rock | Cat: Physical | Power: 50 | Acc: 90 | PP: 15 | Effect: No additional effect.
+Move: Rolling Kick | Type: Fighting | Cat: Physical | Power: 60 | Acc: 85 | PP: 15 | Effect: May cause flinching.
+Move: Sand Attack | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 15 | Effect: Lowers opponent's Accuracy.
+Move: Scratch | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 35 | Effect: No additional effect.
+Move: Screech | Type: Normal | Cat: Physical | Power: — | Acc: 85 | PP: 40 | Effect: Sharply lowers opponent's Defense.
+Move: Seismic Toss | Type: Fighting | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: Inflicts damage equal to user's level.
+Move: Self-Destruct | Type: Normal | Cat: Physical | Power: 200 | Acc: 100 | PP: 5 | Effect: User faints.
+Move: Sharpen | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 30 | Effect: Raises user's Attack.
+Move: Sing | Type: Normal | Cat: Physical | Power: — | Acc: 55 | PP: 15 | Effect: Puts opponent to sleep.
+Move: Skull Bash | Type: Normal | Cat: Physical | Power: 130 | Acc: 100 | PP: 10 | Effect: Raises Defense on first turn, attacks on second.
+Move: Sky Attack | Type: Flying | Cat: Physical | Power: 140 | Acc: 90 | PP: 5 | Effect: Charges on first turn, attacks on second. May cause flinching. High critical hit ratio.
+Move: Slam | Type: Normal | Cat: Physical | Power: 80 | Acc: 75 | PP: 20 | Effect: No additional effect.
+Move: Slash | Type: Normal | Cat: Physical | Power: 70 | Acc: 100 | PP: 20 | Effect: High critical hit ratio.
+Move: Sleep Powder | Type: Grass | Cat: Special | Power: — | Acc: 75 | PP: 15 | Effect: Puts opponent to sleep.
+Move: Sludge | Type: Poison | Cat: Physical | Power: 65 | Acc: 100 | PP: 20 | Effect: May poison opponent.
+Move: Smog | Type: Poison | Cat: Physical | Power: 30 | Acc: 70 | PP: 20 | Effect: May poison opponent.
+Move: Smokescreen | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 20 | Effect: Lowers opponent's Accuracy.
+Move: Soft-Boiled | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 5 | Effect: User recovers half its max HP.
+Move: Solar Beam | Type: Grass | Cat: Special | Power: 120 | Acc: 100 | PP: 10 | Effect: Charges on first turn, attacks on second.
+Move: Sonic Boom | Type: Normal | Cat: Physical | Power: — | Acc: 90 | PP: 20 | Effect: Always inflicts 20 HP.
+Move: Spike Cannon | Type: Normal | Cat: Physical | Power: 20 | Acc: 100 | PP: 15 | Effect: Hits 2-5 times in one turn.
+Move: Splash | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 40 | Effect: Doesn't do ANYTHING.
+Move: Spore | Type: Grass | Cat: Special | Power: — | Acc: 100 | PP: 15 | Effect: Puts opponent to sleep.
+Move: Stomp | Type: Normal | Cat: Physical | Power: 65 | Acc: 100 | PP: 20 | Effect: May cause flinching.
+Move: Strength | Type: Normal | Cat: Physical | Power: 80 | Acc: 100 | PP: 15 | Effect: No additional effect.
+Move: String Shot | Type: Bug | Cat: Physical | Power: — | Acc: 95 | PP: 40 | Effect: Sharply lowers opponent's Speed.
+Move: Struggle | Type: Normal | Cat: Physical | Power: 50 | Acc: — | PP: — | Effect: Only usable when all PP are gone. Hurts the user.
+Move: Stun Spore | Type: Grass | Cat: Special | Power: — | Acc: 75 | PP: 30 | Effect: Paralyzes opponent.
+Move: Submission | Type: Fighting | Cat: Physical | Power: 80 | Acc: 80 | PP: 20 | Effect: User receives recoil damage.
+Move: Substitute | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: Uses HP to creates a decoy that takes hits.
+Move: Super Fang | Type: Normal | Cat: Physical | Power: — | Acc: 90 | PP: 10 | Effect: Always takes off half of the opponent's HP.
+Move: Supersonic | Type: Normal | Cat: Physical | Power: — | Acc: 55 | PP: 20 | Effect: Confuses opponent.
+Move: Surf | Type: Water | Cat: Special | Power: 90 | Acc: 100 | PP: 15 | Effect: Hits all adjacent Pokémon.
+Move: Swift | Type: Normal | Cat: Physical | Power: 60 | Acc: ∞ | PP: 20 | Effect: Ignores Accuracy and Evasiveness.
+Move: Swords Dance | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: Sharply raises user's Attack.
+Move: Tackle | Type: Normal | Cat: Physical | Power: 40 | Acc: 100 | PP: 35 | Effect: No additional effect.
+Move: Tail Whip | Type: Normal | Cat: Physical | Power: — | Acc: 100 | PP: 30 | Effect: Lowers opponent's Defense.
+Move: Take Down | Type: Normal | Cat: Physical | Power: 90 | Acc: 85 | PP: 20 | Effect: User receives recoil damage.
+Move: Teleport | Type: Psychic | Cat: Special | Power: — | Acc: — | PP: 20 | Effect: Allows user to flee wild battles; also warps player to last PokéCenter.
+Move: Thrash | Type: Normal | Cat: Physical | Power: 120 | Acc: 100 | PP: 10 | Effect: User attacks for 2-3 turns but then becomes confused.
+Move: Thunder | Type: Electric | Cat: Special | Power: 110 | Acc: 70 | PP: 10 | Effect: May paralyze opponent.
+Move: Thunder Punch | Type: Electric | Cat: Special | Power: 75 | Acc: 100 | PP: 15 | Effect: May paralyze opponent.
+Move: Thunder Shock | Type: Electric | Cat: Special | Power: 40 | Acc: 100 | PP: 30 | Effect: May paralyze opponent.
+Move: Thunder Wave | Type: Electric | Cat: Special | Power: — | Acc: 90 | PP: 20 | Effect: Paralyzes opponent.
+Move: Thunderbolt | Type: Electric | Cat: Special | Power: 90 | Acc: 100 | PP: 15 | Effect: May paralyze opponent.
+Move: Toxic | Type: Poison | Cat: Physical | Power: — | Acc: 90 | PP: 10 | Effect: Badly poisons opponent.
+Move: Transform | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 10 | Effect: User takes on the form and attacks of the opponent.
+Move: Tri Attack | Type: Normal | Cat: Physical | Power: 80 | Acc: 100 | PP: 10 | Effect: May paralyze, burn or freeze opponent.
+Move: Twineedle | Type: Bug | Cat: Physical | Power: 25 | Acc: 100 | PP: 20 | Effect: Hits twice in one turn. May poison opponent.
+Move: Vine Whip | Type: Grass | Cat: Special | Power: 45 | Acc: 100 | PP: 25 | Effect: No additional effect.
+Move: Vise Grip | Type: Normal | Cat: Physical | Power: 55 | Acc: 100 | PP: 30 | Effect: No additional effect.
+Move: Water Gun | Type: Water | Cat: Special | Power: 40 | Acc: 100 | PP: 25 | Effect: No additional effect.
+Move: Waterfall | Type: Water | Cat: Special | Power: 80 | Acc: 100 | PP: 15 | Effect: May cause flinching.
+Move: Whirlwind | Type: Normal | Cat: Physical | Power: — | Acc: — | PP: 20 | Effect: In battles, the opponent switches. In the wild, the Pokémon runs.
+Move: Wing Attack | Type: Flying | Cat: Physical | Power: 60 | Acc: 100 | PP: 35 | Effect: No additional effect.
+Move: Withdraw | Type: Water | Cat: Special | Power: — | Acc: — | PP: 40 | Effect: Raises user's Defense.
+Move: Wrap | Type: Normal | Cat: Physical | Power: 15 | Acc: 90 | PP: 20 | Effect: Traps opponent, damaging them for 4-5 turns.
