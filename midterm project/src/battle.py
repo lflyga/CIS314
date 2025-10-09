@@ -1,6 +1,10 @@
 """
 Author: L. Flygare
-Description: implements simplified pokemon style damage calculations based on types and effectiveness
+Description: runs a simple turn-based battle between two pokemon
+            -builds up to k(4) learnable moves for a pokemno based on dex num
+            -allows user to choose move/computer randomly chooses move for defender
+            -simulates the fight with speed based turn order, accuracy checks, damage, PP reduction, and win conditions
+            -returns battle logs, events, and summary stats at battle end
 """
 
 import random
