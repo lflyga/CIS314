@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "a_dex": "#011",
+    "a_name": "Metapod",
+    "b_dex": "#038",
+    "b_name": "Ninetales",
+    "winner": "B",
+    "winner_name": "Ninetales",
+    "final_hp_a": 0,
+    "final_hp_b": 73,
+    "turns": 3,
+    "chosen_moves_a": [
+      "Harden"
+    ],
+    "chosen_moves_b": [
+      "Tail Whip",
+      "Ember",
+      "Quick Attack",
+      "Roar"
+    ],
+    "constraints": {
+      "move_cap": 4,
+      "exclude_under_four": false
+    }
+  },
+  "events": [
+    {
+      "turn": 1,
+      "actor": "B",
+      "move": "Roar",
+      "hit": true,
+      "damage": 0,
+      "hp_a": 50,
+      "hp_b": 73,
+      "defender_hp_remaining": 50
+    },
+    {
+      "turn": 1,
+      "actor": "A",
+      "move": "Harden",
+      "hit": true,
+      "damage": 0,
+      "hp_a": 50,
+      "hp_b": 73,
+      "defender_hp_remaining": 73
+    },
+    {
+      "turn": 2,
+      "actor": "B",
+      "move": "Roar",
+      "hit": true,
+      "damage": 0,
+      "hp_a": 50,
+      "hp_b": 73,
+      "defender_hp_remaining": 50
+    },
+    {
+      "turn": 2,
+      "actor": "A",
+      "move": "Harden",
+      "hit": true,
+      "damage": 0,
+      "hp_a": 50,
+      "hp_b": 73,
+      "defender_hp_remaining": 73
+    },
+    {
+      "turn": 3,
+      "actor": "B",
+      "move": "Ember",
+      "hit": true,
+      "damage": 169,
+      "hp_a": -119,
+      "hp_b": 73,
+      "defender_hp_remaining": 0
+    }
+  ],
+  "log": [
+    "Ninetales (Computer) will act first — higher Speed 100 vs 30.",
+    "---Turn 1 ---",
+    "Ninetales used Roar! It dealt 0 damage. Metapod has 50 HP remaining",
+    "Metapod used Harden! It dealt 0 damage. Ninetales has 73 HP remaining",
+    "---Turn 2 ---",
+    "Ninetales used Roar! It dealt 0 damage. Metapod has 50 HP remaining",
+    "Metapod used Harden! It dealt 0 damage. Ninetales has 73 HP remaining",
+    "---Turn 3 ---",
+    "Ninetales used Ember! It dealt 169 damage. Metapod has 0 HP remaining",
+    "Result: Metapod HP 0 vs Ninetales HP 73 -> Ninetales is the winner!"
+  ]
+}

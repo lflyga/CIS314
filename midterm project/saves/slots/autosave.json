@@ -1,0 +1,26 @@
+{
+  "last_battle": {
+    "a_dex": "#011",
+    "a_name": "Metapod",
+    "b_dex": "#038",
+    "b_name": "Ninetales",
+    "winner": "B",
+    "winner_name": "Ninetales",
+    "final_hp_a": 0,
+    "final_hp_b": 73,
+    "turns": 3,
+    "chosen_moves_a": [
+      "Harden"
+    ],
+    "chosen_moves_b": [
+      "Tail Whip",
+      "Ember",
+      "Quick Attack",
+      "Roar"
+    ],
+    "constraints": {
+      "move_cap": 4,
+      "exclude_under_four": false
+    }
+  }
+}
