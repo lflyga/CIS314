@@ -226,11 +226,11 @@ Saved battle:
 
 ## Roadmap / Future Work
 
-- From the Post‑Project Report goals
+- From Post‑Project Report goals
   - Build a GUI with simple, offline animations mapped to move categories/types.
   - Support user-chosen teams (party of 6), switching, and a two‑player mode.
   - Deepen mechanics: stat stages, status conditions, reciprocal effects, proper level scaling.
-- Engine / data
+- Other
   - Expand the type chart to full Gen‑1 coverage.
   - Implement fixed-damage moves (Seismic Toss, Night Shade, Dragon Rage, Sonic Boom).
   - Add an early‑draw rule when both sides have no damaging options or no PP.
