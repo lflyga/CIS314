@@ -6,7 +6,7 @@ Description: demonstrate file handling and data processing using a provided log 
 import re
 
 #easy to swap file name in one spot if this needs to be used for a different file but same purpose
-LOG_PATH = "access.log" 
+LOG_PATH = "assignments/access.log" 
 
 #open and read the log file into list
 def read_file_to_list(path):
