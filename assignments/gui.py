@@ -4,6 +4,7 @@ Description: will ask user for input, populate a new window in the same position
                 and show input and ask user to confirm it is correct, if user responds no, process will repeat until 
                 user confirms input as correct
 """
+# python -m pip install PyQt6 <- run in terminal if PyQt6 not recognized
 
 import sys
 from PyQt6.QtWidgets import QApplication, QDialog, QLabel, QTextEdit, QPushButton, QVBoxLayout, QHBoxLayout
