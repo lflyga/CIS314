@@ -1,0 +1,1293 @@
+{
+  "#001": [
+    "Growl",
+    "Growth",
+    "Leech Seed",
+    "Poison Powder",
+    "Razor Leaf",
+    "Sleep Powder",
+    "Solar Beam",
+    "Tackle",
+    "Vine Whip"
+  ],
+  "#002": [
+    "Growl",
+    "Growth",
+    "Leech Seed",
+    "Poison Powder",
+    "Razor Leaf",
+    "Sleep Powder",
+    "Solar Beam",
+    "Tackle",
+    "Vine Whip"
+  ],
+  "#003": [
+    "Growl",
+    "Growth",
+    "Leech Seed",
+    "Poison Powder",
+    "Razor Leaf",
+    "Sleep Powder",
+    "Solar Beam",
+    "Tackle",
+    "Vine Whip"
+  ],
+  "#004": [
+    "Ember",
+    "Fire Spin",
+    "Flamethrower",
+    "Growl",
+    "Leer",
+    "Rage",
+    "Scratch",
+    "Slash"
+  ],
+  "#005": [
+    "Ember",
+    "Fire Spin",
+    "Flamethrower",
+    "Growl",
+    "Leer",
+    "Rage",
+    "Scratch",
+    "Slash"
+  ],
+  "#006": [
+    "Ember",
+    "Fire Spin",
+    "Flamethrower",
+    "Growl",
+    "Leer",
+    "Rage",
+    "Scratch",
+    "Slash"
+  ],
+  "#007": [
+    "Bite",
+    "Bubble",
+    "Hydro Pump",
+    "Skull Bash",
+    "Tackle",
+    "Tail Whip",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#008": [
+    "Bite",
+    "Bubble",
+    "Hydro Pump",
+    "Skull Bash",
+    "Tackle",
+    "Tail Whip",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#009": [
+    "Bite",
+    "Bubble",
+    "Hydro Pump",
+    "Skull Bash",
+    "Tackle",
+    "Tail Whip",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#010": [
+    "String Shot",
+    "Tackle"
+  ],
+  "#011": [
+    "Harden"
+  ],
+  "#012": [
+    "Confusion",
+    "Poison Powder",
+    "Psybeam",
+    "Sleep Powder",
+    "Stun Spore",
+    "Supersonic",
+    "Whirlwind"
+  ],
+  "#013": [
+    "Poison Sting",
+    "String Shot"
+  ],
+  "#014": [
+    "Harden"
+  ],
+  "#015": [
+    "Agility",
+    "Focus Energy",
+    "Fury Attack",
+    "Pin Missile",
+    "Rage",
+    "Twineedle"
+  ],
+  "#016": [
+    "Agility",
+    "Gust",
+    "Mirror Move",
+    "Quick Attack",
+    "Sand Attack",
+    "Whirlwind",
+    "Wing Attack"
+  ],
+  "#017": [
+    "Agility",
+    "Gust",
+    "Mirror Move",
+    "Quick Attack",
+    "Sand Attack",
+    "Whirlwind",
+    "Wing Attack"
+  ],
+  "#018": [
+    "Agility",
+    "Gust",
+    "Mirror Move",
+    "Quick Attack",
+    "Sand Attack",
+    "Whirlwind",
+    "Wing Attack"
+  ],
+  "#019": [
+    "Focus Energy",
+    "Hyper Fang",
+    "Quick Attack",
+    "Super Fang",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#020": [
+    "Focus Energy",
+    "Hyper Fang",
+    "Quick Attack",
+    "Super Fang",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#021": [
+    "Agility",
+    "Drill Peck",
+    "Fury Attack",
+    "Growl",
+    "Leer",
+    "Mirror Move",
+    "Peck"
+  ],
+  "#022": [
+    "Agility",
+    "Drill Peck",
+    "Fury Attack",
+    "Growl",
+    "Leer",
+    "Mirror Move",
+    "Peck"
+  ],
+  "#023": [
+    "Acid",
+    "Bite",
+    "Glare",
+    "Leer",
+    "Poison Sting",
+    "Screech",
+    "Wrap"
+  ],
+  "#024": [
+    "Acid",
+    "Bite",
+    "Glare",
+    "Leer",
+    "Poison Sting",
+    "Screech",
+    "Wrap"
+  ],
+  "#025": [
+    "Agility",
+    "Growl",
+    "Quick Attack",
+    "Swift",
+    "Thunder",
+    "Thunder Shock",
+    "Thunder Wave"
+  ],
+  "#026": [
+    "Growl",
+    "Thunder Shock",
+    "Thunder Wave"
+  ],
+  "#027": [
+    "Fury Swipes",
+    "Poison Sting",
+    "Sand Attack",
+    "Scratch",
+    "Slash",
+    "Swift"
+  ],
+  "#028": [
+    "Fury Swipes",
+    "Poison Sting",
+    "Sand Attack",
+    "Scratch",
+    "Slash",
+    "Swift"
+  ],
+  "#029": [
+    "Bite",
+    "Double Kick",
+    "Fury Swipes",
+    "Growl",
+    "Poison Sting",
+    "Scratch",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#030": [
+    "Bite",
+    "Double Kick",
+    "Fury Swipes",
+    "Growl",
+    "Poison Sting",
+    "Scratch",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#031": [
+    "Body Slam",
+    "Poison Sting",
+    "Scratch",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#032": [
+    "Double Kick",
+    "Focus Energy",
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Leer",
+    "Poison Sting",
+    "Tackle"
+  ],
+  "#033": [
+    "Double Kick",
+    "Focus Energy",
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Leer",
+    "Poison Sting",
+    "Tackle"
+  ],
+  "#034": [
+    "Horn Attack",
+    "Poison Sting",
+    "Tackle",
+    "Thrash"
+  ],
+  "#035": [
+    "Defense Curl",
+    "Double Slap",
+    "Growl",
+    "Light Screen",
+    "Metronome",
+    "Minimize",
+    "Pound",
+    "Sing"
+  ],
+  "#036": [
+    "Double Slap",
+    "Metronome",
+    "Minimize",
+    "Sing"
+  ],
+  "#037": [
+    "Confuse Ray",
+    "Ember",
+    "Fire Spin",
+    "Flamethrower",
+    "Quick Attack",
+    "Roar",
+    "Tail Whip"
+  ],
+  "#038": [
+    "Ember",
+    "Quick Attack",
+    "Roar",
+    "Tail Whip"
+  ],
+  "#039": [
+    "Body Slam",
+    "Defense Curl",
+    "Disable",
+    "Double Edge",
+    "Double Slap",
+    "Pound",
+    "Rest",
+    "Sing"
+  ],
+  "#040": [
+    "Defense Curl",
+    "Disable",
+    "Double Slap",
+    "Sing"
+  ],
+  "#041": [
+    "Bite",
+    "Confuse Ray",
+    "Haze",
+    "Leech Life",
+    "Supersonic",
+    "Wing Attack"
+  ],
+  "#042": [
+    "Bite",
+    "Confuse Ray",
+    "Haze",
+    "Leech Life",
+    "Screech",
+    "Supersonic",
+    "Wing Attack"
+  ],
+  "#043": [
+    "Absorb",
+    "Acid",
+    "Petal Dance",
+    "Poison Powder",
+    "Sleep Powder",
+    "Solar Beam",
+    "Stun Spore"
+  ],
+  "#044": [
+    "Absorb",
+    "Acid",
+    "Petal Dance",
+    "Poison Powder",
+    "Sleep Powder",
+    "Solar Beam",
+    "Stun Spore"
+  ],
+  "#045": [
+    "Acid",
+    "Petal Dance",
+    "Poison Powder",
+    "Sleep Powder",
+    "Stun Spore"
+  ],
+  "#046": [
+    "Growth",
+    "Leech Life",
+    "Scratch",
+    "Slash",
+    "Spore",
+    "Stun Spore"
+  ],
+  "#047": [
+    "Growth",
+    "Leech Life",
+    "Scratch",
+    "Slash",
+    "Spore",
+    "Stun Spore"
+  ],
+  "#048": [
+    "Disable",
+    "Leech Life",
+    "Poison Powder",
+    "Psybeam",
+    "Psychic",
+    "Sleep Powder",
+    "Stun Spore",
+    "Tackle"
+  ],
+  "#049": [
+    "Disable",
+    "Leech Life",
+    "Poison Powder",
+    "Psybeam",
+    "Psychic",
+    "Sleep Powder",
+    "Stun Spore",
+    "Tackle"
+  ],
+  "#050": [
+    "Dig",
+    "Earthquake",
+    "Growl",
+    "Sand Attack",
+    "Scratch",
+    "Slash"
+  ],
+  "#051": [
+    "Dig",
+    "Earthquake",
+    "Growl",
+    "Sand Attack",
+    "Scratch",
+    "Slash"
+  ],
+  "#052": [
+    "Bite",
+    "Fury Swipes",
+    "Growl",
+    "Pay Day",
+    "Scratch",
+    "Screech",
+    "Slash"
+  ],
+  "#053": [
+    "Bite",
+    "Fury Swipes",
+    "Growl",
+    "Pay Day",
+    "Scratch",
+    "Screech",
+    "Slash"
+  ],
+  "#054": [
+    "Confusion",
+    "Disable",
+    "Fury Swipes",
+    "Hydro Pump",
+    "Scratch",
+    "Tail Whip"
+  ],
+  "#055": [
+    "Confusion",
+    "Disable",
+    "Fury Swipes",
+    "Hydro Pump",
+    "Scratch",
+    "Tail Whip"
+  ],
+  "#056": [
+    "Focus Energy",
+    "Fury Swipes",
+    "Karate Chop",
+    "Leer",
+    "Scratch",
+    "Seismic Toss",
+    "Thrash"
+  ],
+  "#057": [
+    "Focus Energy",
+    "Fury Swipes",
+    "Karate Chop",
+    "Leer",
+    "Scratch",
+    "Seismic Toss",
+    "Thrash"
+  ],
+  "#058": [
+    "Agility",
+    "Bite",
+    "Ember",
+    "Flamethrower",
+    "Leer",
+    "Roar",
+    "Take Down"
+  ],
+  "#059": [
+    "Ember",
+    "Leer",
+    "Roar",
+    "Take Down"
+  ],
+  "#060": [
+    "Amnesia",
+    "Body Slam",
+    "Bubble",
+    "Double Slap",
+    "Hydro Pump",
+    "Hypnosis",
+    "Water Gun"
+  ],
+  "#061": [
+    "Amnesia",
+    "Body Slam",
+    "Bubble",
+    "Double Slap",
+    "Hydro Pump",
+    "Hypnosis",
+    "Water Gun"
+  ],
+  "#062": [
+    "Body Slam",
+    "Double Slap",
+    "Hypnosis",
+    "Water Gun"
+  ],
+  "#063": [
+    "Teleport"
+  ],
+  "#064": [
+    "Confusion",
+    "Disable",
+    "Psybeam",
+    "Psychic",
+    "Recover",
+    "Reflect",
+    "Teleport"
+  ],
+  "#065": [
+    "Confusion",
+    "Disable",
+    "Psybeam",
+    "Psychic",
+    "Recover",
+    "Reflect",
+    "Teleport"
+  ],
+  "#066": [
+    "Focus Energy",
+    "Karate Chop",
+    "Leer",
+    "Low Kick",
+    "Seismic Toss",
+    "Submission"
+  ],
+  "#067": [
+    "Focus Energy",
+    "Karate Chop",
+    "Leer",
+    "Low Kick",
+    "Seismic Toss",
+    "Submission"
+  ],
+  "#068": [
+    "Focus Energy",
+    "Karate Chop",
+    "Leer",
+    "Low Kick",
+    "Seismic Toss",
+    "Submission"
+  ],
+  "#069": [
+    "Acid",
+    "Growth",
+    "Poison Powder",
+    "Razor Leaf",
+    "Slam",
+    "Sleep Powder",
+    "Stun Spore",
+    "Vine Whip",
+    "Wrap"
+  ],
+  "#070": [
+    "Acid",
+    "Growth",
+    "Poison Powder",
+    "Razor Leaf",
+    "Slam",
+    "Sleep Powder",
+    "Stun Spore",
+    "Vine Whip",
+    "Wrap"
+  ],
+  "#071": [
+    "Acid",
+    "Poison Powder",
+    "Razor Leaf",
+    "Sleep Powder",
+    "Stun Spore",
+    "Wrap"
+  ],
+  "#072": [
+    "Acid",
+    "Barrier",
+    "Constrict",
+    "Hydro Pump",
+    "Poison Sting",
+    "Screech",
+    "Supersonic",
+    "Water Gun",
+    "Wrap"
+  ],
+  "#073": [
+    "Acid",
+    "Barrier",
+    "Constrict",
+    "Hydro Pump",
+    "Poison Sting",
+    "Screech",
+    "Supersonic",
+    "Water Gun",
+    "Wrap"
+  ],
+  "#074": [
+    "Defense Curl",
+    "Earthquake",
+    "Explosion",
+    "Harden",
+    "Rock Throw",
+    "Self Destruct",
+    "Tackle"
+  ],
+  "#075": [
+    "Defense Curl",
+    "Earthquake",
+    "Explosion",
+    "Harden",
+    "Rock Throw",
+    "Self Destruct",
+    "Tackle"
+  ],
+  "#076": [
+    "Defense Curl",
+    "Earthquake",
+    "Explosion",
+    "Harden",
+    "Rock Throw",
+    "Self Destruct",
+    "Tackle"
+  ],
+  "#077": [
+    "Agility",
+    "Ember",
+    "Fire Spin",
+    "Growl",
+    "Stomp",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#078": [
+    "Agility",
+    "Ember",
+    "Fire Spin",
+    "Growl",
+    "Stomp",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#079": [
+    "Amnesia",
+    "Confusion",
+    "Disable",
+    "Growl",
+    "Headbutt",
+    "Psychic",
+    "Water Gun"
+  ],
+  "#080": [
+    "Amnesia",
+    "Confusion",
+    "Disable",
+    "Growl",
+    "Headbutt",
+    "Psychic",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#081": [
+    "Screech",
+    "Sonic Boom",
+    "Supersonic",
+    "Swift",
+    "Tackle",
+    "Thunder Shock",
+    "Thunder Wave"
+  ],
+  "#082": [
+    "Screech",
+    "Sonic Boom",
+    "Supersonic",
+    "Swift",
+    "Tackle",
+    "Thunder Shock",
+    "Thunder Wave"
+  ],
+  "#083": [
+    "Agility",
+    "Fury Attack",
+    "Leer",
+    "Peck",
+    "Sand Attack",
+    "Slash",
+    "Swords Dance"
+  ],
+  "#084": [
+    "Agility",
+    "Drill Peck",
+    "Fury Attack",
+    "Growl",
+    "Peck",
+    "Rage",
+    "Tri Attack"
+  ],
+  "#085": [
+    "Agility",
+    "Drill Peck",
+    "Fury Attack",
+    "Growl",
+    "Peck",
+    "Rage",
+    "Tri Attack"
+  ],
+  "#086": [
+    "Aurora Beam",
+    "Growl",
+    "Headbutt",
+    "Ice Beam",
+    "Rest",
+    "Take Down"
+  ],
+  "#087": [
+    "Aurora Beam",
+    "Growl",
+    "Headbutt",
+    "Ice Beam",
+    "Rest",
+    "Take Down"
+  ],
+  "#088": [
+    "Acid Armor",
+    "Disable",
+    "Harden",
+    "Minimize",
+    "Poison Gas",
+    "Pound",
+    "Screech",
+    "Sludge"
+  ],
+  "#089": [
+    "Acid Armor",
+    "Disable",
+    "Harden",
+    "Minimize",
+    "Poison Gas",
+    "Pound",
+    "Screech",
+    "Sludge"
+  ],
+  "#090": [
+    "Aurora Beam",
+    "Clamp",
+    "Ice Beam",
+    "Leer",
+    "Supersonic",
+    "Tackle",
+    "Withdraw"
+  ],
+  "#091": [
+    "Aurora Beam",
+    "Clamp",
+    "Spike Cannon",
+    "Supersonic",
+    "Withdraw"
+  ],
+  "#092": [
+    "Confuse Ray",
+    "Dream Eater",
+    "Hypnosis",
+    "Lick",
+    "Night Shade"
+  ],
+  "#093": [
+    "Confuse Ray",
+    "Dream Eater",
+    "Hypnosis",
+    "Lick",
+    "Night Shade"
+  ],
+  "#094": [
+    "Confuse Ray",
+    "Dream Eater",
+    "Hypnosis",
+    "Lick",
+    "Night Shade"
+  ],
+  "#095": [
+    "Bind",
+    "Harden",
+    "Rage",
+    "Rock Throw",
+    "Screech",
+    "Slam",
+    "Tackle"
+  ],
+  "#096": [
+    "Confusion",
+    "Disable",
+    "Headbutt",
+    "Hypnosis",
+    "Meditate",
+    "Poison Gas",
+    "Pound",
+    "Psychic"
+  ],
+  "#097": [
+    "Confusion",
+    "Disable",
+    "Headbutt",
+    "Hypnosis",
+    "Meditate",
+    "Poison Gas",
+    "Pound",
+    "Psychic"
+  ],
+  "#098": [
+    "Bubble",
+    "Crabhammer",
+    "Guillotine",
+    "Harden",
+    "Leer",
+    "Stomp",
+    "Vice Grip"
+  ],
+  "#099": [
+    "Bubble",
+    "Crabhammer",
+    "Guillotine",
+    "Harden",
+    "Leer",
+    "Stomp",
+    "Vice Grip"
+  ],
+  "#100": [
+    "Explosion",
+    "Light Screen",
+    "Screech",
+    "Self Destruct",
+    "Sonic Boom",
+    "Swift",
+    "Tackle"
+  ],
+  "#101": [
+    "Explosion",
+    "Light Screen",
+    "Screech",
+    "Self Destruct",
+    "Sonic Boom",
+    "Swift",
+    "Tackle"
+  ],
+  "#102": [
+    "Barrage",
+    "Hypnosis",
+    "Leech Seed",
+    "Poison Powder",
+    "Reflect",
+    "Sleep Powder",
+    "Solar Beam",
+    "Stun Spore"
+  ],
+  "#103": [
+    "Barrage",
+    "Hypnosis",
+    "Stomp"
+  ],
+  "#104": [
+    "Bone Club",
+    "Bonemerang",
+    "Focus Energy",
+    "Growl",
+    "Leer",
+    "Rage",
+    "Thrash"
+  ],
+  "#105": [
+    "Bone Club",
+    "Bonemerang",
+    "Focus Energy",
+    "Growl",
+    "Leer",
+    "Rage",
+    "Thrash"
+  ],
+  "#106": [
+    "Double Kick",
+    "Focus Energy",
+    "High Jump Kick",
+    "Jump Kick",
+    "Meditate",
+    "Mega Kick",
+    "Rolling Kick"
+  ],
+  "#107": [
+    "Agility",
+    "Comet Punch",
+    "Counter",
+    "Fire Punch",
+    "Ice Punch",
+    "Mega Punch",
+    "Thunder Punch"
+  ],
+  "#108": [
+    "Defense Curl",
+    "Disable",
+    "Screech",
+    "Slam",
+    "Stomp",
+    "Supersonic",
+    "Wrap"
+  ],
+  "#109": [
+    "Explosion",
+    "Haze",
+    "Self Destruct",
+    "Sludge",
+    "Smog",
+    "Smokescreen",
+    "Tackle"
+  ],
+  "#110": [
+    "Explosion",
+    "Haze",
+    "Self Destruct",
+    "Sludge",
+    "Smog",
+    "Smokescreen",
+    "Tackle"
+  ],
+  "#111": [
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Leer",
+    "Stomp",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#112": [
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Leer",
+    "Stomp",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#113": [
+    "Defense Curl",
+    "Double Edge",
+    "Double Slap",
+    "Growl",
+    "Light Screen",
+    "Minimize",
+    "Pound",
+    "Sing"
+  ],
+  "#114": [
+    "Absorb",
+    "Bind",
+    "Constrict",
+    "Growth",
+    "Poison Powder",
+    "Slam",
+    "Sleep Powder",
+    "Stun Spore"
+  ],
+  "#115": [
+    "Bite",
+    "Comet Punch",
+    "Dizzy Punch",
+    "Leer",
+    "Mega Punch",
+    "Rage",
+    "Tail Whip"
+  ],
+  "#116": [
+    "Agility",
+    "Bubble",
+    "Hydro Pump",
+    "Leer",
+    "Smokescreen",
+    "Water Gun"
+  ],
+  "#117": [
+    "Agility",
+    "Bubble",
+    "Hydro Pump",
+    "Leer",
+    "Smokescreen",
+    "Water Gun"
+  ],
+  "#118": [
+    "Agility",
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Peck",
+    "Supersonic",
+    "Tail Whip",
+    "Waterfall"
+  ],
+  "#119": [
+    "Agility",
+    "Fury Attack",
+    "Horn Attack",
+    "Horn Drill",
+    "Peck",
+    "Supersonic",
+    "Tail Whip",
+    "Waterfall"
+  ],
+  "#120": [
+    "Harden",
+    "Hydro Pump",
+    "Light Screen",
+    "Minimize",
+    "Recover",
+    "Swift",
+    "Tackle",
+    "Water Gun"
+  ],
+  "#121": [
+    "Harden",
+    "Tackle",
+    "Water Gun"
+  ],
+  "#122": [
+    "Barrier",
+    "Confusion",
+    "Double Slap",
+    "Light Screen",
+    "Meditate",
+    "Substitute"
+  ],
+  "#123": [
+    "Agility",
+    "Double Team",
+    "Focus Energy",
+    "Leer",
+    "Quick Attack",
+    "Slash",
+    "Swords Dance"
+  ],
+  "#124": [
+    "Blizzard",
+    "Body Slam",
+    "Double Slap",
+    "Ice Punch",
+    "Lick",
+    "Lovely Kiss",
+    "Pound",
+    "Thrash"
+  ],
+  "#125": [
+    "Leer",
+    "Light Screen",
+    "Quick Attack",
+    "Screech",
+    "Thunder",
+    "Thunder Punch",
+    "Thunder Shock"
+  ],
+  "#126": [
+    "Confuse Ray",
+    "Ember",
+    "Fire Punch",
+    "Flamethrower",
+    "Leer",
+    "Smog",
+    "Smokescreen"
+  ],
+  "#127": [
+    "Focus Energy",
+    "Guillotine",
+    "Harden",
+    "Seismic Toss",
+    "Slash",
+    "Swords Dance",
+    "Vice Grip"
+  ],
+  "#128": [
+    "Leer",
+    "Rage",
+    "Stomp",
+    "Tackle",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#129": [
+    "Splash",
+    "Tackle"
+  ],
+  "#130": [
+    "Bite",
+    "Dragon Rage",
+    "Hydro Pump",
+    "Hyper Beam",
+    "Leer"
+  ],
+  "#131": [
+    "Body Slam",
+    "Confuse Ray",
+    "Growl",
+    "Hydro Pump",
+    "Ice Beam",
+    "Mist",
+    "Sing",
+    "Water Gun"
+  ],
+  "#132": [
+    "Transform"
+  ],
+  "#133": [
+    "Bite",
+    "Quick Attack",
+    "Sand Attack",
+    "Tackle",
+    "Tail Whip",
+    "Take Down"
+  ],
+  "#134": [
+    "Acid Armor",
+    "Bite",
+    "Haze",
+    "Hydro Pump",
+    "Mist",
+    "Quick Attack",
+    "Sand Attack",
+    "Tackle",
+    "Tail Whip",
+    "Water Gun"
+  ],
+  "#135": [
+    "Agility",
+    "Double Kick",
+    "Pin Missile",
+    "Quick Attack",
+    "Sand Attack",
+    "Tackle",
+    "Tail Whip",
+    "Thunder",
+    "Thunder Shock",
+    "Thunder Wave"
+  ],
+  "#136": [
+    "Bite",
+    "Ember",
+    "Fire Spin",
+    "Flamethrower",
+    "Leer",
+    "Quick Attack",
+    "Rage",
+    "Sand Attack",
+    "Tackle",
+    "Tail Whip"
+  ],
+  "#137": [
+    "Agility",
+    "Conversion",
+    "Psybeam",
+    "Recover",
+    "Sharpen",
+    "Tackle",
+    "Tri Attack"
+  ],
+  "#138": [
+    "Horn Attack",
+    "Hydro Pump",
+    "Leer",
+    "Spike Cannon",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#139": [
+    "Horn Attack",
+    "Hydro Pump",
+    "Leer",
+    "Spike Cannon",
+    "Water Gun",
+    "Withdraw"
+  ],
+  "#140": [
+    "Absorb",
+    "Harden",
+    "Hydro Pump",
+    "Leer",
+    "Scratch",
+    "Slash"
+  ],
+  "#141": [
+    "Absorb",
+    "Harden",
+    "Hydro Pump",
+    "Leer",
+    "Scratch",
+    "Slash"
+  ],
+  "#142": [
+    "Agility",
+    "Bite",
+    "Hyper Beam",
+    "Supersonic",
+    "Take Down",
+    "Wing Attack"
+  ],
+  "#143": [
+    "Amnesia",
+    "Body Slam",
+    "Double Edge",
+    "Harden",
+    "Headbutt",
+    "Hyper Beam",
+    "Rest"
+  ],
+  "#144": [
+    "Agility",
+    "Blizzard",
+    "Ice Beam",
+    "Mist",
+    "Peck"
+  ],
+  "#145": [
+    "Agility",
+    "Drill Peck",
+    "Light Screen",
+    "Thunder",
+    "Thunder Shock"
+  ],
+  "#146": [
+    "Agility",
+    "Fire Spin",
+    "Leer",
+    "Peck",
+    "Sky Attack"
+  ],
+  "#147": [
+    "Agility",
+    "Dragon Rage",
+    "Hyper Beam",
+    "Leer",
+    "Slam",
+    "Thunder Wave",
+    "Wrap"
+  ],
+  "#148": [
+    "Agility",
+    "Dragon Rage",
+    "Hyper Beam",
+    "Leer",
+    "Slam",
+    "Thunder Wave",
+    "Wrap"
+  ],
+  "#149": [
+    "Agility",
+    "Dragon Rage",
+    "Hyper Beam",
+    "Leer",
+    "Slam",
+    "Thunder Wave",
+    "Wrap"
+  ],
+  "#150": [
+    "Amnesia",
+    "Barrier",
+    "Confusion",
+    "Disable",
+    "Mist",
+    "Psychic",
+    "Recover",
+    "Swift"
+  ],
+  "#151": [
+    "Mega Punch",
+    "Metronome",
+    "Pound",
+    "Psychic",
+    "Transform"
+  ]
+}
