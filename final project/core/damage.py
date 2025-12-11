@@ -7,7 +7,7 @@ Description: implements simplified pokemon style damage calculations based on ty
             -returns total damage
 """
 
-import random
+import json
 from pathlib import Path
 from .models import Monster, Move
 import random
