@@ -63,16 +63,6 @@ def is_special(move_type: str) -> bool:
     """returns True for the seven special types of gen1 moves to determine which stats to use"""
     return move_type in {"Fire", "Water", "Grass", "Electric", "Ice", "Psychic", "Dragon"}
 
-#ended up more accurate to have accuracy check in do_battle() in battle.py
-# def _hits(move: Move, rnd: random.Random | None = None) -> bool:
-#     """returns true if the move hits based on its accuracy (None always hits, never fails)"""
-#     if move.accuracy is None:   #represented by '—' or infinity symbol in data
-#         return True
-    
-#     #randomly determine accuracy if not an 'awlays hits' move
-#     r = rnd or random
-#     return r.random() <= (move.accuracy / 100.0)
-
 def compute_damage(attacker: Monster, defender: Monster, move: Move, rng: float | None = None, rnd: random.Random | None = None) -> int:
     """
     returns final int damage using a simplified formula that fixes the level at 50
@@ -95,11 +85,7 @@ def compute_damage(attacker: Monster, defender: Monster, move: Move, rng: float 
     #bails before calculations and other determinations if defender will be immune to damage from hit
     if eff == 0.0:
         return 0
-    
-    #again, accuracy check moved to battle.py
-    # if not _hits(move, rnd = rnd):
-    #     return 0    #move misses
-    
+        
     #determine atk/dfn use vs sp_atk/sp_dfn use
     use_special = is_special(move.type)
     atk = attacker.sp_atk if use_special else attacker.atk
