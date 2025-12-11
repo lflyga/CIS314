@@ -1,6 +1,6 @@
 """
 Author: L. Flygare
-Description: this script pulls gen1 pokemon dat afrom pokeapi and generates htree json files under the project
+Description: this script pulls gen1 pokemon dat afrom pokeapi and generates four json files under the project
                 'data/' directory:
                 * monsters.json         - keyed by dex number (e.g., "#001")
                                         - each entry contains name, types, base stats, and a front sprite URL
@@ -8,6 +8,8 @@ Description: this script pulls gen1 pokemon dat afrom pokeapi and generates htre
                                         - each entry contains move type, power, accuracy, and pp
                 * move_learners.json    - maps each Pokédex number (ex #001) to a sorted list of all gen1 legal 
                                           level-up moves that pokemon can learn in the red/blue version group
+                * type_chart.json       - nested dict representing the type effectiveness chart for Gen I types
+                                          using PokeAPI’s official damage_relations
 """
 
 import json
@@ -42,7 +44,14 @@ OUT_DIR.mkdir(exist_ok=True)
 MON_OUT = OUT_DIR / "monsters.json"
 MOVE_OUT = OUT_DIR / "moves.json"
 LEARN_OUT = OUT_DIR / "move_learners.json"
+TYPE_CHART_OUT = OUT_DIR / "type_chart.json"
 
+#gen1 types used when building type charts for move effectiveness
+GEN1_TYPES = [
+    "normal", "fire", "water", "electric", "grass", "ice",
+    "fighting", "poison", "ground", "flying",
+    "psychic", "bug", "rock", "ghost", "dragon",
+]
 
 
 def fetch(url: str) -> dict:
@@ -167,6 +176,78 @@ def fetch_move_details(display_name: str, slug: str):
         "pp": data["pp"], 
     }
 
+def fethc_type_resource(type_name: str) -> dict:
+    """
+    fetch a single type resource from pokeapi (ex fire, water)
+
+    use when building the type effectiveness chart
+    """
+    url = API_BASE + "type/" + type_name + "/"
+    resp = requests.get(url, timeout = 15)
+    resp.raise_for_status()
+    return resp.json()
+
+def build_type_chart() -> dict[str, dict[str, float]]:
+    """
+    build gen1 type effectiveness chart using pokeapi
+
+    returns a nested dict
+            {
+                "Fire": {
+                    "Grass": 2.0,
+                    "Water": 0.5,
+                    "Rock": 0.5,
+                    ...
+                },
+                "Water": {
+                    "Fire": 2.0,
+                    "Electric": 0.5,
+                    ...
+                },
+                ...
+            }
+
+    Where each value is a standard type multiplier:
+        - 2.0  : super effective
+        - 0.5  : not very effective
+        - 0.0  : no effect
+        - 1.0  : neutral
+    """
+    chart: dict[str, dict[str, float]] = {}
+
+    #everything neutral 1.0
+    for atk in GEN1_TYPES:
+        data  = fethc_type_resource(atk)
+        rel = data["damage_relations"]
+
+        row: dict[str, float] = {
+            def_type.title(): 1.0 for def_type in GEN1_TYPES
+        }
+
+        #2x damage
+        for entry in rel["double_damage_to"]:
+            name = entry["name"].title()
+            if name in row:
+                row[name] = 2.0
+
+        #.5x damage
+        for entry in rel["half_damage_to"]:
+            name = entry["name"].title()
+            if name in row:
+                row[name] = .5
+
+        #0x damage
+        for entry in rel["no_damage_to"]:
+            name = entry["name"].title()
+            if name in row:
+                row[name] = 0.0        
+
+        chart[atk.title()] = row
+        print(f"Built type row for {atk.title()}")
+
+    return chart
+
+
 def main():
     """
     main driver for generating all three json files the rest of the program will rely on
@@ -184,6 +265,7 @@ def main():
         * monsters.json         - keyed by dex number (e.g., "#001"), with stats/types/sprite
         * moves.json            - keyed by move name (alphabetically sorted)
         * move_learners.json    - mapping each dex number to the list of moves it can learn
+        * type_chart.json       - type effectiveness chart for moves
     """
     #get all gen1 species names from generation endpoint
     species_names = get_gen1_species_names()
@@ -245,16 +327,21 @@ def main():
     #sort moves json alphabetically
     moves_sorted = dict(sorted(all_moves.items(), key = lambda x: x[0].lower()))
 
+    #build type chart from pokeapi for gen1 types
+    type_chart = build_type_chart()
+
     #write out json files
     MON_OUT.write_text(json.dumps(monsters_sorted, indent = 2), encoding = "utf-8")
     MOVE_OUT.write_text(json.dumps(moves_sorted, indent = 2), encoding = "utf-8")
     LEARN_OUT.write_text(json.dumps(learners_sorted, indent = 2), encoding = "utf-8")
+    TYPE_CHART_OUT.write_text(json.dumps(type_chart, indent = 2), encoding = "utf-8")
 
     #final confirmation to user in terminal 
     print("\nGenerated files: ")
     print("•", MON_OUT)
     print("•", MOVE_OUT)
     print("•", LEARN_OUT)
+    print("•", TYPE_CHART_OUT)
 
 
 if __name__ == "__main__":
