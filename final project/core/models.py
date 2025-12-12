@@ -12,7 +12,7 @@ from typing import Optional, List #Optional = built in module for type hints tha
 @dataclass
 class Move:
     """represents a move available in battle"""
-    name: str               #disply name of the move (eg Hydro Pump)
+    name: str               #display name of the move (eg Hydro Pump)
     type: str               #elemental type of move (eg Water, Fire Ice, etc)
     
     power: Optional[int]    #base power for damaging moves, None is '-' = non-damaging/Status
