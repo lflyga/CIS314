@@ -128,6 +128,7 @@ If desired, the data can be regenerated using the PokeAPI loader script:
 
 ```bash
 python -m utils.pokeapi_loader
+```
 
 ---
 
