@@ -1,10 +1,21 @@
 """
 Author: L. Flygare
-Description: implements simplified pokemon style damage calculations based on types and effectiveness
-            -type_chart lookup for move effectiveness multiplier (now derived instead of hardcoded)
-            -supports multiplier for dual type defenders
-            -determines special type moves
-            -returns total damage
+Description: implements simplified, pokemon-style damage calculations for Gen 1 battles.
+
+             this module is responsible ONLY for numeric damage computation. It does not
+             manage battle flow, PP usage, fainting, or turn order - those concerns are
+             handled by battle_engine.py.
+
+             key responsibilities:
+                -determine move effectiveness using a type chart loaded from JSON
+                 (derived from PokeAPI data rather than hardcoded tables)
+                -support single- and dual-type defenders by multiplying effectiveness
+                -determine whether a move uses physical or special stats (Gen 1 rules)
+                -apply Same-Type Attack Bonus (STAB)
+                -apply a small random variance to simulate Gen 1-style damage ranges
+                -guarantee minimum damage of 1 for non-immune hits
+
+             status moves (power=None) and immune matchups always deal zero damage.
 """
 
 import json
@@ -65,15 +76,21 @@ def is_special(move_type: str) -> bool:
 
 def compute_damage(attacker: Monster, defender: Monster, move: Move, rng: float | None = None, rnd: random.Random | None = None) -> int:
     """
-    returns final int damage using a simplified formula that fixes the level at 50
-    -category check with no damage for Status (power=None)
-    -checks accuracy before computing damage
-    -correct attacking/defending stats (normal or special base don move type)
-    -same-type attack bonus (eg fire-type pokemon uses fire-type move) if types match
-    -type effectiveness, taking into account immunities
-    -random variance via rng to simulate a range of effectiveness in moves
-    -minimum damage will be 1 unless there is immunity, ensuring weak but non-immune hits
-     deal at least 1 HP
+    compute final integer damage for a single move using a simplified
+    pokemon-style damage formula with level fixed at 50.
+
+    this function assumes:
+        -accuracy has already been checked by the caller
+        -pp has already been validated by the caller
+
+    rules implemented:
+        -status moves (power=None) deal zero damage
+        -immunities (type effectiveness = 0.0) deal zero damage
+        -physical vs special stat selection follows Gen 1 rules
+        -Same-Type Attack Bonus (STAB) is applied when applicable
+        -type effectiveness supports single and dual-type defenders
+        -a random variance (~0.85–1.00) simulates Gen 1 damage ranges
+        -non-immune hits always deal at least 1 HP of damage
     """
     if move.category == "Status" or move.power is None:
         return 0    #no damage

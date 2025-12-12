@@ -14,7 +14,6 @@ class Move:
     """represents a move available in battle"""
     name: str               #display name of the move (eg Hydro Pump)
     type: str               #elemental type of move (eg Water, Fire Ice, etc)
-    
     power: Optional[int]    #base power for damaging moves, None is '-' = non-damaging/Status
     accuracy: Optional[int] #accuracy as a percentage (eg 100 for 100%), None => move never misses ('-', '∞')
     pp: int                 #remaining power points for a move in the current battle
