@@ -1,7 +1,7 @@
 """
 Author: L. Flygare
 Description: implements simplified pokemon style damage calculations based on types and effectiveness
-            -type_chart lookup for move effectiveness multiplier
+            -type_chart lookup for move effectiveness multiplier (now derived instead of hardcoded)
             -supports multiplier for dual type defenders
             -determines special type moves
             -returns total damage
