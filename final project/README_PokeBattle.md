@@ -118,6 +118,19 @@ pip install streamlit requests
 
 ---
 
+## Data Generation (Optional)
+
+This project includes pre-generated Pokémon data files located in the `data/`
+directory. These files are sufficient to run the application as-is, and users
+do **not** need to make any live API requests.
+
+If desired, the data can be regenerated using the PokeAPI loader script:
+
+```bash
+python -m utils.pokeapi_loader
+
+---
+
 ## Running the Application
 
 From the project root directory:
